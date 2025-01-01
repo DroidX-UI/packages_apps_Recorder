@@ -19,14 +19,15 @@ android_app {
         // DO NOT EDIT THIS SECTION MANUALLY
         "androidx.activity_activity-ktx",
         "androidx.appcompat_appcompat",
-        "androidx.core_core-ktx",
-        "com.google.android.material_material",
         "androidx-constraintlayout_constraintlayout",
+        "androidx.core_core-ktx",
         "androidx.lifecycle_lifecycle-livedata-ktx",
         "androidx.lifecycle_lifecycle-service",
         "androidx.lifecycle_lifecycle-viewmodel-ktx",
         "androidx.recyclerview_recyclerview",
         "androidx.recyclerview_recyclerview-selection",
+        "com.google.android.material_material",
+        "kotlin-stdlib-jdk8",
     ],
 
     sdk_version: "35",
