@@ -1,5 +1,5 @@
 /*
- * SPDX-FileCopyrightText: 2021-2024 The LineageOS Project
+ * SPDX-FileCopyrightText: 2021-2025 The LineageOS Project
  * SPDX-License-Identifier: Apache-2.0
  */
 
@@ -62,11 +62,6 @@ class RecordingsAdapter(
         currentList: MutableList<Recording>
     ) {
         super.onCurrentListChanged(previousList, currentList)
-
-        // This gets randomly called with null as argument
-        if (currentList == null) {
-            return
-        }
 
         val dataTypeToIndex = mutableMapOf<Recording, Int>()
         for (i in currentList.indices) {
