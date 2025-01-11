@@ -58,11 +58,6 @@ class DialogActivity : AppCompatActivity() {
         }
     }
 
-    @Deprecated("Deprecated in Java")
-    override fun onBackPressed() {
-        finish()
-    }
-
     private fun setupLocationSwitch(
         locationSwitch: MaterialSwitch,
         isRecording: Boolean
