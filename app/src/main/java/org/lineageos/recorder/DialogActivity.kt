@@ -5,8 +5,6 @@
 
 package org.lineageos.recorder
 
-import android.graphics.Color
-import android.os.Build
 import android.os.Bundle
 import android.widget.CompoundButton
 import androidx.appcompat.app.AppCompatActivity
@@ -63,18 +61,6 @@ class DialogActivity : AppCompatActivity() {
     @Deprecated("Deprecated in Java")
     override fun onBackPressed() {
         finish()
-    }
-
-    override fun finish() {
-        super.finish()
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.UPSIDE_DOWN_CAKE) {
-            overrideActivityTransition(
-                OVERRIDE_TRANSITION_CLOSE, 0, android.R.anim.fade_out, Color.TRANSPARENT
-            )
-        } else {
-            @Suppress("deprecation")
-            overridePendingTransition(0, android.R.anim.fade_out)
-        }
     }
 
     private fun setupLocationSwitch(
