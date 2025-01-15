@@ -56,4 +56,8 @@
     <string name="delete_all_message">Tem a certeza que deseja eliminar todas as gravações? Isto não pode ser revertido</string>
     <string name="delete_selected_title">Eliminar selecionadas</string>
     <string name="delete_selected_message">Tem a certeza que deseja eliminar as gravações selecionadas? Isto não pode ser revertido</string>
+    <plurals name="recording_selection_count">
+        <item quantity="one">%d selecionada</item>
+        <item quantity="other">%d selecionadas</item>
+    </plurals>
 </resources>

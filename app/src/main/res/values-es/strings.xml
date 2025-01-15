@@ -35,7 +35,7 @@
     <string name="settings_quality_high">Grabar en alta calidad</string>
     <string name="dialog_permissions_title">Permisos</string>
     <string name="dialog_permissions_mic">La grabadora necesita acceder al micrófono para grabar el audio</string>
-    <string name="dialog_permissions_phone">La grabadora de sonidos necesita acceder al estado del teléfono para evitar grabar durante una llamada</string>
+    <string name="dialog_permissions_phone">La grabadora necesita acceder al estado del teléfono para evitar grabar durante una llamada</string>
     <string name="dialog_permissions_notifications">La grabadora necesita permiso de notificaciones para mostrar los controles de grabación</string>
     <string name="dialog_permissions_mic_phone">La grabadora necesita acceder al micrófono para grabar audio y al estado del teléfono para evitar grabar durante una llamada</string>
     <string name="dialog_permissions_mic_notifications">La grabadora necesita permiso del micrófono para grabar audio y permiso de notificaciones para mostrar los controles de grabación</string>
@@ -44,8 +44,8 @@
     <string name="dialog_permissions_location">La grabadora necesita permiso de ubicación para etiquetar automáticamente tus grabaciones y ayudarte a organizarlas</string>
     <string name="dialog_permissions_ask">Preguntar de nuevo</string>
     <string name="dialog_permissions_dismiss">Descartar</string>
-    <string name="snack_permissions_no_permission">Permisos necesarios denegados, actívelos desde la aplicación de Ajustes para iniciar la grabación</string>
-    <string name="snack_permissions_no_permission_location">Permiso de ubicación denegado, actívalo desde Ajustes para etiquetar tus grabaciones</string>
+    <string name="snack_permissions_no_permission">Permisos necesarios denegados, actívalos en Ajustes para iniciar la grabación</string>
+    <string name="snack_permissions_no_permission_location">Permiso de ubicación denegado, actívalo en Ajustes para etiquetar tus grabaciones</string>
     <string name="main_sound_action">Grabar sonido</string>
     <string name="list_title">Mis grabaciones</string>
     <string name="list_error_empty">Todas tus grabaciones se mostrarán aquí</string>
