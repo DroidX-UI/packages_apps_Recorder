@@ -36,7 +36,11 @@
     <string name="dialog_permissions_title">اجازه‌ها</string>
     <string name="dialog_permissions_mic">ضبط کننده برای ضبط صدا نیاز به اجازهٔ میکروفون دارد</string>
     <string name="dialog_permissions_phone">ضبط کننده برای جلوگیری این برنامه از ضبط هنگام تماستان، نیاز به اجازهٔ وضعیت تلفن دارد</string>
+    <string name="dialog_permissions_notifications">ضبط‌کننده برای نمایش کنترل‌های ضبط به مجوز اعلان‌ها نیاز دارد</string>
     <string name="dialog_permissions_mic_phone">ضبط کننده برای ضبط صدا نیاز به اجازهٔ میکروفون و برای جلوگیری این برنامه از ضبط هنگام تماستان، نیاز به اجازهٔ وضعیت تلفن دارد</string>
+    <string name="dialog_permissions_mic_notifications">ضبط‌کننده برای ضبط صدا به مجوز میکروفون و برای نمایش کنترل‌های ضبط به مجوز اعلان‌ها نیاز دارد</string>
+    <string name="dialog_permissions_phone_notifications">ضبط‌کننده برای جلوگیری از ضبط این برنامه در حین تماس و اجازه اعلان‌ها برای نمایش کنترل‌های ضبط، به دسترسی به وضعیت تلفن نیاز دارد.</string>
+    <string name="dialog_permissions_mic_phone_notifications">ضبط‌کننده برای ضبط صدا به مجوز میکروفون، دسترسی به وضعیت تلفن برای جلوگیری از ضبط این برنامه در حین تماس و اجازه اعلان‌ها برای نمایش کنترل‌های ضبط نیاز دارد.</string>
     <string name="dialog_permissions_location">ضبط کننده برای برچسب گذاری خودکار ضبط های شما به مجوز مکان برای کمک به شما در سازماندهی آنها نیاز دارد</string>
     <string name="dialog_permissions_ask">دوباره پرسیده شود</string>
     <string name="dialog_permissions_dismiss">رد کردن</string>
@@ -52,4 +56,8 @@
     <string name="delete_all_message">آیا مطمئن هستید که می خواهید همه ضبط ها را حذف کنید؟ این قابل بازگشت نیست</string>
     <string name="delete_selected_title">حذف موارد انتخاب شده</string>
     <string name="delete_selected_message">آیا مطمئن هستید که می خواهید ضبط های انتخابی را حذف کنید؟ این قابل بازگشت نیست</string>
+    <plurals name="recording_selection_count">
+        <item quantity="one">%Id انتخاب شده</item>
+        <item quantity="other">%Id انتخاب شده</item>
+    </plurals>
 </resources>
